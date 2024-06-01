@@ -72,8 +72,8 @@ From the diagram; the following five features are important in predicting whethe
     -Contact Month to Month
     -Technical support No
 
-- Insight
-Total Charges: The cumulative amount a user has been billed. Higher total charges can indicate long-term engagement or higher usage, but also may reflect accumulated costs that could lead to churn.
+### Insight:
+- Total Charges: The cumulative amount a user has been billed. Higher total charges can indicate long-term engagement or higher usage, but also may reflect accumulated costs that could lead to churn.
 
 Tenure: The duration a user has been with the service. Longer tenure often correlates with loyalty and lower churn rates, while shorter tenure may indicate a higher risk of churn.
 
@@ -126,7 +126,7 @@ Here is the classification report for customer that are likely to churn
 - Recall : 0.50
 - F1-score : 0.56
 
-### Custmer that may likley not churn
+### Customer that may likley not churn
 - Precision: 0.83
 - Recall: 0.90
 - F1-score: 0.87
