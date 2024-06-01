@@ -3,7 +3,7 @@ Customer churn, the phenomenon where customers stop doing business with a compan
 
 # Table of Contents
 
-Project Description
+/n Project Description
 Dataset
 Project Structure
 Results
