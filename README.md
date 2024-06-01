@@ -22,32 +22,31 @@ Customer churn, the phenomenon where customers stop doing business with a compan
 
 # Dataset
 The dataset used in this project contains information about customer behavior and demographics. It includes features such as:
--Customer ID
--Gender
--Partner
--Dependents
-PhoneService
-MultipleLines
-InternetServices 
-StreamingTV
-OnlineSecurity
-OnlineBackup
-DeviceProtection
-TechSupport
-StreamingMovies
-Contract
-PaperLessBilling
-PaymentMethon
-MonthlyCharges
-TotalCharges
-Churn
+- Customer ID
+- Gender
+- Partner
+- Dependents
+- PhoneService
+- MultipleLines
+- InternetServices 
+- StreamingTV
+- OnlineSecurity
+- OnlineBackup
+- DeviceProtection
+- TechSupport
+- StreamingMovies
+- Contract
+- PaperLessBilling
+- PaymentMethon
+- MonthlyCharges
+- TotalCharges
+- Churn
 from this link (provide a link to the dataset if available online).
 
 # Results
 
 The results of the project include:
-
-Exploratory Data Analysis: Visualizations and insights about the factors affecting customer churn.
+- Exploratory Data Analysis: Visualizations and insights about the factors affecting customer churn.
 - There are 7032 observation and 21 features in the dataset
 - There some missing values in TotalCharges. In total, the dataset has a combination of 12 objects which are 4 numrical feature 
 Object value types  are as follows Categorical:customerID,gender,Partner,Dependents,PhoneService,MultipleLines,InternetService,OnlineSecurity,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,Churn Numerical value types are:SeniorCitizen,tenure,MonthlyCharges,TotalCharges
@@ -60,11 +59,10 @@ While oberving the feature for outliers; it becomes apparent that the distributi
 A deeper dive shows that
 Customers with higher monthly charges are more likely to churn compared to those with lower charges.
 Customers on monthly subscriptions have a higher churn rate than those on one-year or two-year subscriptions.
-Insights
+
+- Insights  
 1.	This suggests that the cost sensitivity of customers plays a significant role in their decision to leave the service. Higher monthly expenses may contribute to dissatisfaction or financial strain, leading to higher churn rates.Subscription Type and Churn
 2.	Monthly subscriptions might be perceived as less committed and more flexible, making it easier for customers to cancel. Longer-term subscriptions may provide more stability and commitment, reducing the likelihood of churn. Relationship Between Tenure and Total Charges
-
-
 
 feature important graph was also used to help identified the most important in predicting whether a user will churn or not.
 From the diagram; the following five features are important in predicting whether a user will churn or not
@@ -74,7 +72,7 @@ From the diagram; the following five features are important in predicting whethe
     -Contact Month to Month
     -Technical support No
 
-Insight
+- Insight
 Total Charges: The cumulative amount a user has been billed. Higher total charges can indicate long-term engagement or higher usage, but also may reflect accumulated costs that could lead to churn.
 
 Tenure: The duration a user has been with the service. Longer tenure often correlates with loyalty and lower churn rates, while shorter tenure may indicate a higher risk of churn.
@@ -91,15 +89,15 @@ Technical Support: No: Users who have not accessed technical support services mi
 Three supervised learning model was used to test and train model and then thw model was eveluated using calssification report ad confusion metrix 
 Logistic regression model:
 Here is the classification report for customer that are likely to churn 
-Accuracy : 0.80
-Precision: 0.64
-Recall: 0.55
-F1-score: 0:59
+- Accuracy : 0.80
+- Precision: 0.64
+- Recall: 0.55
+- F1-score: 0:59
 
-Customer that may likley not churn
-Precision: 0.85
-Recall: 0.89
-F1-score: 0:87
+- Customer that may likley not churn
+- Precision: 0.85
+- Recall: 0.89
+- F1-score: 0:87
 
 Examining the confusion matrix provides further insight into the model's performance:
 True Negatives (TN): The model correctly identified 65% of the cases where clients did churn. False Negatives (FN): The model incorrectly classified 8.25% of the non-churned clients as churned, highlighting areas for improvement.
