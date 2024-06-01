@@ -3,31 +3,29 @@ Customer churn, the phenomenon where customers stop doing business with a compan
 
 # Table of Contents
 
-/n Project Description
-Dataset
-Project Structure
-Results
-Technologies Used
-Contributing
-License
-Contact
-
+- Project Description
+- Dataset
+- Results
+- Model performace 
+- Contributing
+- Contact
 
 # This project involves the following key steps:
-Data Preprocessing: Cleaning and preparing the data for analysis.
-Exploratory Data Analysis (EDA): Understanding the data through visualization and statistical analysis.
-Feature Engineering: Creating new features to improve model performance.
-Model Building: Developing machine learning models to predict customer churn.
-Model Evaluation: Assessing the performance of the models using various metrics.
-Insights and Recommendations: Providing actionable insights to reduce churn.
+
+- Data Preprocessing: Cleaning and preparing the data for analysis.
+- Exploratory Data Analysis (EDA): Understanding the data through visualization and statistical analysis.
+- Feature Engineering: Creating new features to improve model performance.
+- Model Building: Developing machine learning models to predict customer churn.
+- Model Evaluation: Assessing the performance of the models using various metrics.
+- Insights and Recommendations: Providing actionable insights to reduce churn.
 
 
 # Dataset
 The dataset used in this project contains information about customer behavior and demographics. It includes features such as:
-Customer ID
-Gender
-Partner
-Dependents
+-Customer ID
+-Gender
+-Partner
+-Dependents
 PhoneService
 MultipleLines
 InternetServices 
