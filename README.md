@@ -88,13 +88,13 @@ Technical Support: No: Users who have not accessed technical support services mi
 
 Three supervised learning model was used to test and train model and then thw model was eveluated using calssification report ad confusion metrix 
 Logistic regression model:
-Here is the classification report for customer that are likely to churn 
+## Here is the classification report for customer that are likely to churn 
 - Accuracy : 0.80
 - Precision: 0.64
 - Recall: 0.55
 - F1-score: 0:59
 
-- Customer that may likley not churn
+### Customer that may likley not churn
 - Precision: 0.85
 - Recall: 0.89
 - F1-score: 0:87
@@ -102,34 +102,35 @@ Here is the classification report for customer that are likely to churn
 Examining the confusion matrix provides further insight into the model's performance:
 True Negatives (TN): The model correctly identified 65% of the cases where clients did churn. False Negatives (FN): The model incorrectly classified 8.25% of the non-churned clients as churned, highlighting areas for improvement.
 
-# Decision tree model:
+## Decision tree model:
 Here is the classification report for customer that are likely to churn 
-Accuracy :0.72
-Precision: 0.47
-Recall: 0.52
-F1-score: 0.50
+- Accuracy :0.72
+- Precision: 0.47
+- Recall: 0.52
+- F1-score: 0.50
  
-Customer that may likley not churn
-Precision:0.82
-Recall: 0.79
-F1-score: 0.81
-Examining the confusion matrix provides further insight into the model's performance:
+### Customer that may likley not churn
+- Precision:0.82
+- Recall: 0.79
+- F1-score: 0.81
+- 
+### Examining the confusion matrix provides further insight into the model's performance:
 True Negatives (TN): The model correctly predicts 58.53% of churn cases, demonstrating reliable performance in identifying clients who remain.
 False Negatives (FN): The model incorrectly classifies 15.17% of churned clients as non-churned, indicating areas where the model could be improved to better capture at-risk clients.
 
 
 # Gradient boosting model:
 Here is the classification report for customer that are likely to churn 
-Accuracy : 0.80
-Precision : 0.65
-Recall : 0.50
-F1-score : 0.56
+- Accuracy : 0.80
+- Precision : 0.65
+- Recall : 0.50
+- F1-score : 0.56
 
-Custmer that may likley not churn
-Precision: 0.83
-Recall: 0.90
-F1-score: 0.87
-Examining the confusion matrix provides further insight into the model's performance:
+### Custmer that may likley not churn
+- Precision: 0.83
+- Recall: 0.90
+- F1-score: 0.87
+### Examining the confusion matrix provides further insight into the model's performance:
 True Negatives (TN): The model correctly predicts 66.54% of churn cases, demonstrating reliable performance in identifying clients who remain. False Negatives (FN): The model incorrectly classifies 7.16% of churned clients as non-churned, indicating areas where the model could be improved to better capture at-risk clients.
 
 Analyzing the confusion matrix provides deeper insights into the model's predictive capabilities:
