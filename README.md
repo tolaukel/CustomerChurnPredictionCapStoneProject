@@ -60,7 +60,7 @@ A deeper dive shows that
 Customers with higher monthly charges are more likely to churn compared to those with lower charges.
 Customers on monthly subscriptions have a higher churn rate than those on one-year or two-year subscriptions.
 
-- Insights  
+### Insights  
 1.	This suggests that the cost sensitivity of customers plays a significant role in their decision to leave the service. Higher monthly expenses may contribute to dissatisfaction or financial strain, leading to higher churn rates.Subscription Type and Churn
 2.	Monthly subscriptions might be perceived as less committed and more flexible, making it easier for customers to cancel. Longer-term subscriptions may provide more stability and commitment, reducing the likelihood of churn. Relationship Between Tenure and Total Charges
 
