@@ -137,7 +137,7 @@ Analyzing the confusion matrix provides deeper insights into the model's predict
 True Negatives (TN): The model correctly predicts 66.54% of churn cases, demonstrating reliable performance in identifying clients who remain. False Negatives (FN): The model incorrectly classifies 7.16% of churned clients as non-churned, indicating areas where the model could be improved to better capture at-risk clients.
 
 # Recommendations
-Among the three models used to train and test in this project  Decision tree model shows good overall accuracy and  performs better at predicting clients who churn as compared to other model
+Among the three models used to train and test this project, the decision tree model shows good overall accuracy and performs better at predicting clients who churn as compared to other models.
 
 Contributions are welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
 
